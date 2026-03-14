@@ -21,7 +21,17 @@ https://storage.googleapis.com/jart-ae25e.firebasestorage.app/wrapply%2Fbuilds%2
 
 ## 📸 App Preview
 ![App Screenshot](Screenshot_20260313-202027.jpg)
+## Dataset
 
+This project includes a structured dataset of interview questions used by the application.
+
+Dataset file location:
+dataset/interview_questions.json
+
+Categories included:
+- Software Engineering
+- Data Science
+- HR Interview Questions 
 ## 🛠️ Technologies Used
 - HTML
 - CSS
