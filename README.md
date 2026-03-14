@@ -1,4 +1,7 @@
 # InterviewAIcoach
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 AI-powered interview preparation app that helps users practice mock interviews, improve answers, and boost confidence using intelligent feedback and career guidance.
 
