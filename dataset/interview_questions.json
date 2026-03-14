@@ -1,0 +1,26 @@
+{
+ "software_engineer": [
+  {
+   "question": "Explain Object Oriented Programming.",
+   "answer": "OOP is a programming paradigm based on objects containing data and methods."
+  },
+  {
+   "question": "What is a REST API?",
+   "answer": "REST API is an interface that allows communication between systems using HTTP methods."
+  }
+ ],
+
+ "data_science": [
+  {
+   "question": "What is overfitting in machine learning?",
+   "answer": "Overfitting occurs when a model learns the training data too well including noise."
+  }
+ ],
+
+ "hr_round": [
+  {
+   "question": "Tell me about yourself.",
+   "answer": "Provide a short professional summary including education and skills."
+  }
+ ]
+}
