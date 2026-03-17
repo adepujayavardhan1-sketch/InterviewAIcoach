@@ -12,3 +12,9 @@ function startInterview() {
 
   document.getElementById("question").innerText = selectedQuestion;
 }
+function nextQuestion() {
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  const selectedQuestion = questions[randomIndex];
+
+  document.getElementById("question").innerText = selectedQuestion;
+}
