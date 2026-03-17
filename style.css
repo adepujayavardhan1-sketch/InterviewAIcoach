@@ -44,4 +44,18 @@ img {
  ul {
   list-style-position: inside;
 }
-                                                                                      
+.features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}                                                                                 
