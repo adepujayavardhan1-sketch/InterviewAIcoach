@@ -2,8 +2,8 @@
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Enabled-yellow)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://adepujayavardhan1-sketch.github.io/InterviewAIcoach/)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
 AI-powered interview preparation app that helps users practice mock interviews, improve answers, and boost confidence using intelligent feedback and career guidance.
 
 ## 🌐 Live Website
