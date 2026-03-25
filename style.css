@@ -46,12 +46,28 @@ img {
 }
 
 /* FEATURES CONTAINER */
-.features-container {
+ .features-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 12px;
 }
+
+.feature {
+  background-color: #6D28D9;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: 0.3s; /* smooth animation */
+}
+
+  .feature:hover {
+  background-color: #5B21B6; /* darker purple */
+  transform: scale(1.02);
+}
+
+  
+
 
 /* PREMIUM GLASS CARD */
 .card {
