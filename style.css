@@ -18,7 +18,10 @@ p {
   font-size: 18px;
   color: #eaf6ff;
 }
-
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
 /* PREMIUM BUTTON */
 a {
   display: inline-block;
@@ -50,6 +53,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: 20px; 
 }
 
 .feature {
