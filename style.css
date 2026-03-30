@@ -25,7 +25,7 @@ h2 {
 /* PREMIUM BUTTON */
 a {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 14px 28px;
   background: linear-gradient(135deg, #1e3a8a, #2563eb);
   color: white;
@@ -44,9 +44,11 @@ a:hover {
 
 /* IMAGE */
 img {
+  margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0 6px 25px rgba(0,0,0,0.3);
 }
+
 
 /* FEATURES CONTAINER */
  .features-container {
@@ -54,6 +56,9 @@ img {
   flex-direction: column;
   gap: 12px;
   margin-top: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
 }
 
 .feature {
@@ -63,8 +68,8 @@ img {
   border-radius: 12px;
   font-size: 18px;
   transition: 0.3s; /* smooth animation */
+  box shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
-
   .feature:hover {
   background-color: #5B21B6; /* darker purple */
   transform: scale(1.02);
@@ -77,11 +82,11 @@ img {
 .card {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  color: white;
+:  color: white;
   padding: 18px;
   border-radius: 15px;
   font-size: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 6pxgba(0,0,0,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
