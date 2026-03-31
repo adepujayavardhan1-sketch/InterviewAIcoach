@@ -1,158 +1,51 @@
+/* Improved style.css with fixed CSS errors, CSS variables, responsive design, and smooth animations */
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial', sans-serif;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
-  text-align: center;
-  padding: 30px;
-  margin: 0;
-  color: white;
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Title */
-h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+.header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    animation: fadeIn 1s;
 }
 
-/* Subtitle */
-p {
-  font-size: 18px;
-  color: #eaf6ff;
-}
-h2 {
-  margin-top: 30px;
-  font-size: 24px;
-}
-/* PREMIUM BUTTON */
-a {
-  display: inline-block;
-  margin-top: 25px;
-  padding: 14px 28px;
-  background: linear-gradient(135deg, #1e3a8a, #2563eb);
-  color: white;
-  text-decoration: none;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: bold;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-a:hover {
-  transform: scale(1.05);
-  background: linear-gradient(135deg, #1a2f7a, #1e40af);
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
 }
 
-/* IMAGE */
-img {
-  margin-top: 20px;
-  border-radius: 15px;
-  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
-}
-
-
-/* FEATURES CONTAINER */
- .features-container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 20px; 
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 500px;
-}
-
-.feature {
-  background-color: #6D28D9;
-  color: white;
-  padding: 15px;
-  border-radius: 12px;
-  font-size: 18px;
-  transition: 0.3s; /* smooth animation */
-  box shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-  .feature:hover {
-  background-color: #5B21B6; /* darker purple */
-  transform: scale(1.02);
-}
-
-  
-
-
-/* PREMIUM GLASS CARD */
 .card {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(10px);
-:  color: white;
-  padding: 18px;
-  border-radius: 15px;
-  font-size: 16px;
-  box-shadow: 0 6pxgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+    border: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 1em;
+    transition: transform 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    transform: scale(1.05);
 }
-  
-  
-  
-  
 
-
-
-  
-
-
-
-  
-  
-
-
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
-  
-
-
-
-  
- 
-  
-
-
-  
-  
-
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-
-
-
-  
-  
-                                                                         
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
